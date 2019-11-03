@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Teacher</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>TEACHER</h1>
+			<div class="links">
+				<a href="{{ url_for('upload') }}" class="active"><span style="text-align:center">Upload question and answer paper</span></a>
+                <a href="{{ url_for('treport') }}" class="active"><span style="text-align:center">View Report</span></a>
+				
+			</div>
+           
+			
+		</div>
+	</body>
+</html>
